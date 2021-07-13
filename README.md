@@ -1,4 +1,4 @@
-# Svelte 3 Web Component Button with TailwindCSS & Storybook
+# Svelte 3 Web Component Button with WindiCSS & Storybook
 
 [![GitHub CI](https://github.com/smarlhens/svelte3-web-component-button/workflows/CI/badge.svg)](https://github.com/smarlhens/svelte3-web-component-button/actions?query=workflow%3ACI)
 [![CircleCI](https://circleci.com/gh/smarlhens/svelte3-web-component-button.svg?style=svg)](https://circleci.com/gh/smarlhens/svelte3-web-component-button)
