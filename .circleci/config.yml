@@ -1,0 +1,75 @@
+version: 2
+
+jobs:
+  checkout:
+    working_directory: ~/svelte3-boilerplate
+    docker:
+      - image: circleci/node:12-browsers
+    steps:
+      - checkout
+      - save_cache:
+          key: v0-repo-{{ .Branch }}-{{ .Environment.CIRCLE_SHA1 }}
+          paths:
+            - ~/svelte3-boilerplate
+  dependencies:
+    working_directory: ~/svelte3-boilerplate
+    docker:
+      - image: circleci/node:12-browsers
+    steps:
+      - restore_cache:
+          key: v0-repo-{{ .Branch }}-{{ .Environment.CIRCLE_SHA1 }}
+      - restore_cache:
+          key: v0-node-{{ .Branch }}-{{ checksum "package.json" }}
+      - run:
+          name: Install dependencies
+          command: npm install
+      - save_cache:
+          key: v0-node-{{ .Branch }}-{{ checksum "package.json" }}
+          paths:
+            - ~/svelte3-boilerplate/node_modules
+  lint:
+    working_directory: ~/svelte3-boilerplate
+    docker:
+      - image: circleci/node:12-browsers
+    steps:
+      - restore_cache:
+          key: v0-repo-{{ .Branch }}-{{ .Environment.CIRCLE_SHA1 }}
+      - restore_cache:
+          key: v0-node-{{ .Branch }}-{{ checksum "package.json" }}
+      - run:
+          name: ESLint
+          command: npm run eslint:check
+      - run:
+          name: Prettier
+          command: npm run prettier:check
+  build:
+    working_directory: ~/svelte3-boilerplate
+    docker:
+      - image: circleci/node:12-browsers
+    steps:
+      - restore_cache:
+          key: v0-repo-{{ .Branch }}-{{ .Environment.CIRCLE_SHA1 }}
+      - restore_cache:
+          key: v0-node-{{ .Branch }}-{{ checksum "package.json" }}
+      - run:
+          name: Build
+          command: npm run build
+      - save_cache:
+          key: v0-build-{{ .Branch }}-{{ .Environment.CIRCLE_SHA1 }}
+          paths:
+            - ~/svelte3-boilerplate/public/build
+
+workflows:
+  version: 2
+  ci:
+    jobs:
+      - checkout
+      - dependencies:
+          requires:
+            - checkout
+      - lint:
+          requires:
+            - dependencies
+      - build:
+          requires:
+            - lint

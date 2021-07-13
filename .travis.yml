@@ -1,0 +1,21 @@
+dist: bionic
+language: node_js
+node_js:
+  - '12'
+  - '14'
+  - '16'
+
+os:
+  - linux
+
+cache:
+  directories:
+    - ./node_modules
+
+install:
+  - npm install --no-progress
+
+script:
+  - npm run eslint:check
+  - npm run prettier:check
+  - npm run build
