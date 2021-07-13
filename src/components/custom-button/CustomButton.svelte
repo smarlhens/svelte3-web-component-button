@@ -10,7 +10,7 @@
 
   const dispatch = createEventDispatcher();
 
-  function onClick(event) {
+  function onClick(event: Event) {
     if (!disabled) {
       dispatch('click', event);
     } else {

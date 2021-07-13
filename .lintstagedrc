@@ -1,4 +1,4 @@
 {
-  "./**/*.svelte": ["npm run --silent eslint:fix"],
-  "./**/*.{js,css,scss,html,json,*rc,svelte}": ["npm run prettier:write"]
+  "./**/*.{svelte,ts}": ["npm run eslint:fix"],
+  "./**/*.{ts,js,css,scss,html,json,*rc,svelte}": ["npm run prettier:write"]
 }
