@@ -1,19 +1,19 @@
-# Svelte 3 - Boilerplate
+# Svelte 3 Web Component Button with TailwindCSS & Storybook
 
-[![GitHub CI](https://github.com/smarlhens/svelte3-boilerplate/workflows/CI/badge.svg)](https://github.com/smarlhens/svelte3-boilerplate/actions?query=workflow%3ACI)
-[![CircleCI](https://circleci.com/gh/smarlhens/svelte3-boilerplate.svg?style=svg)](https://circleci.com/gh/smarlhens/svelte3-boilerplate)
-[![Build Status](https://travis-ci.com/smarlhens/svelte3-boilerplate.svg?branch=master)](https://travis-ci.com/smarlhens/svelte3-boilerplate)
+[![GitHub CI](https://github.com/smarlhens/svelte3-web-component-button/workflows/CI/badge.svg)](https://github.com/smarlhens/svelte3-web-component-button/actions?query=workflow%3ACI)
+[![CircleCI](https://circleci.com/gh/smarlhens/svelte3-web-component-button.svg?style=svg)](https://circleci.com/gh/smarlhens/svelte3-web-component-button)
+[![Build Status](https://travis-ci.com/smarlhens/svelte3-web-component-button.svg?branch=master)](https://travis-ci.com/smarlhens/svelte3-web-component-button)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
-[![GitHub issues](https://img.shields.io/github/issues/smarlhens/svelte3-boilerplate)](https://github.com/smarlhens/svelte3-boilerplate/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/smarlhens/svelte3-boilerplate)](https://github.com/smarlhens/svelte3-boilerplate/pulls)
-[![GitHub stars](https://img.shields.io/github/stars/smarlhens/svelte3-boilerplate)](https://github.com/smarlhens/svelte3-boilerplate/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/smarlhens/svelte3-boilerplate)](https://github.com/smarlhens/svelte3-boilerplate/network)
-[![GitHub contributors](https://img.shields.io/github/contributors/smarlhens/svelte3-boilerplate)](https://github.com/smarlhens/svelte3-boilerplate/graphs/contributors)
-[![GitHub license](https://img.shields.io/github/license/smarlhens/svelte3-boilerplate)](https://github.com/smarlhens/svelte3-boilerplate)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/smarlhens/svelte3-boilerplate)
-![GitHub repo size](https://img.shields.io/github/repo-size/smarlhens/svelte3-boilerplate)
+[![GitHub issues](https://img.shields.io/github/issues/smarlhens/svelte3-web-component-button)](https://github.com/smarlhens/svelte3-web-component-button/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/smarlhens/svelte3-web-component-button)](https://github.com/smarlhens/svelte3-web-component-button/pulls)
+[![GitHub stars](https://img.shields.io/github/stars/smarlhens/svelte3-web-component-button)](https://github.com/smarlhens/svelte3-web-component-button/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/smarlhens/svelte3-web-component-button)](https://github.com/smarlhens/svelte3-web-component-button/network)
+[![GitHub contributors](https://img.shields.io/github/contributors/smarlhens/svelte3-web-component-button)](https://github.com/smarlhens/svelte3-web-component-button/graphs/contributors)
+[![GitHub license](https://img.shields.io/github/license/smarlhens/svelte3-web-component-button)](https://github.com/smarlhens/svelte3-web-component-button)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/smarlhens/svelte3-web-component-button)
+![GitHub repo size](https://img.shields.io/github/repo-size/smarlhens/svelte3-web-component-button)
 
 
 *Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
