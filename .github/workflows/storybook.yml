@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-    paths: ['stories/**', 'src/components/**']
+    paths: ['src/stories/**', 'src/components/**']
 
 jobs:
   build-and-deploy:
