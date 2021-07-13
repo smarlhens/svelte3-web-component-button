@@ -6,7 +6,7 @@ module.exports = {
   svelteOptions: {
     preprocess: require('svelte-preprocess')(),
   },
-  webpackFinal: (config) => {
+  webpackFinal: config => {
     config.plugins.push(new WindiCSS());
     return config;
   },
