@@ -26,5 +26,5 @@ jobs:
         with:
           branch: main
           folder: storybook-static
-          clear: true
+          clean: true
           target-folder: docs
