@@ -1,8 +1,6 @@
-# Svelte 3 Web Component Button with TailwindCSS & Storybook
+# Svelte 3 Web Component Button with WindiCSS & Storybook
 
 [![GitHub CI](https://github.com/smarlhens/svelte3-web-component-button/workflows/CI/badge.svg)](https://github.com/smarlhens/svelte3-web-component-button/actions?query=workflow%3ACI)
-[![CircleCI](https://circleci.com/gh/smarlhens/svelte3-web-component-button.svg?style=svg)](https://circleci.com/gh/smarlhens/svelte3-web-component-button)
-[![Build Status](https://travis-ci.com/smarlhens/svelte3-web-component-button.svg?branch=master)](https://travis-ci.com/smarlhens/svelte3-web-component-button)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
