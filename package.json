@@ -29,7 +29,7 @@
     "@storybook/addon-essentials": "6.3.5",
     "@storybook/addon-links": "6.3.5",
     "@storybook/addon-svelte-csf": "1.1.0",
-    "@storybook/svelte": "6.3.5",
+    "@storybook/svelte": "6.3.6",
     "@tsconfig/svelte": "2.0.1",
     "@typescript-eslint/eslint-plugin": "4.28.4",
     "@typescript-eslint/parser": "4.28.4",
