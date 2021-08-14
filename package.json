@@ -57,7 +57,7 @@
     "windicss-webpack-plugin": "1.4.4"
   },
   "dependencies": {
-    "sirv-cli": "1.0.12"
+    "sirv-cli": "1.0.14"
   },
   "engines": {
     "node": ">=12.13.0"
