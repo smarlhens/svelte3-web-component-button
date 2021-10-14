@@ -27,7 +27,7 @@
     "@rollup/plugin-typescript": "8.2.5",
     "@storybook/addon-actions": "6.3.11",
     "@storybook/addon-essentials": "6.3.11",
-    "@storybook/addon-links": "6.3.11",
+    "@storybook/addon-links": "6.3.12",
     "@storybook/addon-svelte-csf": "1.1.0",
     "@storybook/svelte": "6.3.11",
     "@tsconfig/svelte": "2.0.1",
