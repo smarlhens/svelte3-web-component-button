@@ -52,7 +52,7 @@
     "svelte": "3.44.1",
     "svelte-loader": "3.1.2",
     "svelte-preprocess": "4.9.8",
-    "svelte-windicss-preprocess": "4.1.4",
+    "svelte-windicss-preprocess": "4.1.6",
     "typescript": "4.4.4",
     "windicss-webpack-plugin": "1.5.6"
   },
