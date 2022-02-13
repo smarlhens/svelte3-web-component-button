@@ -30,7 +30,7 @@
     "@storybook/addon-links": "6.4.19",
     "@storybook/addon-svelte-csf": "1.1.0",
     "@storybook/svelte": "6.4.19",
-    "@tsconfig/svelte": "2.0.1",
+    "@tsconfig/svelte": "3.0.0",
     "@typescript-eslint/eslint-plugin": "4.33.0",
     "@typescript-eslint/parser": "4.33.0",
     "babel-loader": "8.2.3",
