@@ -1,4 +1,0 @@
-{
-  "./**/*.{svelte,ts}": ["npm run eslint:fix"],
-  "./**/*.{ts,js,css,scss,html,json,*rc,svelte}": ["npm run prettier:write"]
-}

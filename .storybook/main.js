@@ -1,4 +1,4 @@
-const WindiCSS = require('windicss-webpack-plugin').default;
+const WindiCSSWebpackPlugin = require('windicss-webpack-plugin');
 
 module.exports = {
   features: {
@@ -10,7 +10,7 @@ module.exports = {
     preprocess: require('svelte-preprocess')(),
   },
   webpackFinal: config => {
-    config.plugins.push(new WindiCSS());
+    config.plugins.push(new WindiCSSWebpackPlugin());
     return config;
   },
 };
