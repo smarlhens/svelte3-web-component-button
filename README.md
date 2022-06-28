@@ -21,6 +21,7 @@
 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
+- [Folder organization](#folder-organization)
 - [Usage](#usage)
 
 ---
@@ -55,8 +56,8 @@
 
 ## Folder organization
 
-- [`src/components`](./src/components): contain web components written with [Svelte](https://svelte.dev/)
-- [`src/stories`](./src/stories): contain stories for [Storybook](https://storybook.js.org/)
+- [`src/components`](./src/components): contains web components written with [Svelte](https://svelte.dev/)
+- [`src/stories`](./src/stories): contains stories for [Storybook](https://storybook.js.org/)
 
 ---
 
@@ -67,5 +68,8 @@
 ```html
 <custom-button label="Button" disabled="false"></custom-button>
 ```
+
+Example of usage in [`public/index.html`](./public/index.html).  
+Use `npm run dev` or `npm run build & npm run start` to test the rendering of the web component in your application.
 
 ---
