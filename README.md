@@ -73,3 +73,11 @@ Example of usage in [`public/index.html`](./public/index.html).
 Use `npm run dev` or `npm run build & npm run start` to test the rendering of the web component in your application.
 
 ---
+
+## Known issues
+
+[ESLint](https://eslint.org/) warning: it is expecting `svelte.config.js` to contain `customElement: true`. As we are using `rollup.config.js`, we do not need `svelte.config.js`. `customElement: true` is already used.
+
+```text
+The 'tag' option is used when generating a custom element. Did you forget the 'customElement: true' compile option?
+```
